@@ -1,0 +1,312 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: lightgray;
+    
+}
+.left{
+    grid-column: 1;
+    grid-row: 1 / 5;
+    border-radius: 10px;
+    width: 293px;
+    height: 1024px;
+    background-color: white;
+    margin-left: 50px;
+}
+.header {
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+    width: 923px;
+    height: 66px;
+    background-color: white;
+    border-radius: 10px;
+}
+.post{
+    grid-column: 2 / 2;
+    grid-row: 2;
+    width: 714px;
+    height: 183px;
+    background-color: white;
+    border-radius: 10px;
+}
+.right {
+    grid-column: 3;
+    grid-row: 2 / 4;
+    width: 185px;
+    height: 901px;
+    background-color: white;
+    border-radius: 10px;
+}
+.cont{
+    grid-column: 2;
+    grid-row: 3;
+    width: 714px;
+    height: 706px;
+    background-color: white;
+    border-radius: 10px;
+}
+.first{
+    margin-left: 30px;
+}
+.header img{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.header li{
+    display: inline;
+}
+.header a{
+    color: #555555;
+}
+
+.header input{
+    margin-right: 240px;
+    margin-left: 65px;
+    width: 305px;
+    height: 39px;
+    background: #f7f7f7;
+    border-radius: 20px;
+}
+.img{
+    border-radius: 50%;
+}
+.left a{
+    color: #1f50ff;
+}
+
+.left2 a{
+    margin-top: 18px;
+    font-size: 16px;
+}
+.avatar{
+    margin-top: 40px;
+}
+.avatar img, h2{
+    display: inline;
+}
+.left-img{
+    width: 68px;
+    height: 63px;
+    border-radius: 50%;
+    margin-left: 22px;
+}
+.avatar h2{
+    position: relative;
+    top: -25px;
+    font-size: 16px;
+    margin-left: 11px;
+}
+.avatar p{
+    color: #1f50ff;
+    margin-top: 30px;
+    margin-bottom: 18px;
+}
+.count{
+    margin-top: 33px;
+}
+.count p{
+    display: inline;
+}
+.numb{
+    margin-bottom: 12px;
+}
+.numb p{
+    margin-left: 52px;
+    margin-right: 23px;
+}
+.numb-text p{
+    margin-left: 44px;
+}
+.count img{
+    margin-top: 28px;
+}
+.list img, p{
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 19px;
+}
+.list img{
+    margin-left: 33px;
+}
+.list p{
+    position: relative;
+    top: -5px;
+}
+.pin h1{
+    margin: 21px 35px;
+}
+.pin img{
+    margin-left: 33px;
+}
+.pin p{
+    position: relative;
+    top: -15px;
+    color: #303030;
+}
+.p1{
+    width: 96px;
+    height: 32px;
+    
+}
+.p2{
+    
+    position: relative;
+    right: -75px;
+}
+strong{
+    color: black;
+}
+.arrow{
+    margin-top: 33px;
+}
+.share img{
+    margin-top: 24px;
+    margin-left: 34px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 68px;
+    height: 63px;
+}
+.share input{
+    position: relative;
+    top: -25px;
+    width: 550px;
+    height: 56px;
+    border-radius: 28px;
+    background: #F6F6F6;
+}
+.tools{
+    margin-top: 15px;
+    margin-left: 18px;
+    border-top: 1px solid #ebebeb;
+}
+.tools li{
+    display: inline;
+    border-left: 1px solid #ebebeb;
+}
+.tools img{
+    margin-left: 22px;
+    width: 20px;
+    height: 20px;
+}
+.tools p{
+    position: relative;
+    top: -5px;
+    left: -20px;
+    font-size: 12px;
+}
+.tools button{
+    margin-left: 31px;
+    width: 96px;
+    height: 39px;
+    background: #1F50FF;
+    border-radius: 20px;    
+    color: white;
+    cursor: pointer;
+}
+.right h1{
+    margin-left: 22px;
+    width: 95px;
+}
+.right img{
+    margin-top: 25px;
+    margin-left: 22px;
+}
+
+.btn{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 22px;
+    text-decoration: underline;   
+}
+.line{
+    width: 141px;
+}
+.birth h1, img{
+    display: inline;
+}
+.contact h1, img{
+    display: inline;
+}
+.birth p{
+    font-size: 12px;
+}
+.contact h1{
+    position: relative;
+    top: -10px;
+}
+.cont2 img, p{
+    display: inline;
+}
+.cont2 img{
+    border-radius: 50%;
+}
+.cont2 p{
+    width: 82px;
+    font-size: 12px;
+    position: relative;
+    top: -12px;
+    left: -12px;
+}
+.arrow2 p{
+    position: relative;
+    top: -15px;
+    font-size: 12px;
+}
+.main{
+    margin-top: 23px;
+    margin-left: 27px;
+}
+.main img{
+    border-radius: 50%;
+}
+.main img, h2{
+    display: inline;
+}
+.main h2{
+    position: relative;
+    left: 19px;
+    top: -25px;
+}
+.hour p{
+    position: relative;
+    left: 90px;
+    top: -15px;
+    color: #1F50FF;
+}
+.text2{
+    margin-left: 22px;
+}
+.text2 p{
+    width: 657px;
+    height: 48px;
+    margin-left: 22px;
+    margin: 0 auto;
+}
+.text2 img{
+    margin-top: 10px;
+}
+.exp{
+    margin-left: 34px;
+}
+.exp img{
+    margin-right: 23px;
+}
+.exp a{
+    margin-left: 450px;
+}
+.line-cont{
+    width: 660px;
+    margin-left: 22px;
+}
+.text3 p{
+    margin-left: 112px;
+}
+.text3 img{
+    margin-left: 22px;
+    margin-top: 18px;
+}
